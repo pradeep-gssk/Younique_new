@@ -1,0 +1,1002 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0BE153B61509C82E0CEA7624 /* Pods_YouniqueTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 484DD1D02434285731418242 /* Pods_YouniqueTests.framework */; };
+		521EFB5B1FA6E51400E1BD96 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521EFB5A1FA6E51400E1BD96 /* Response.swift */; };
+		5224ED681FA4F8D200AB9F43 /* YQNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5224ED671FA4F8D200AB9F43 /* YQNavigationController.swift */; };
+		522F8C821FA2852F0017BBF9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522F8C811FA2852F0017BBF9 /* AppDelegate.swift */; };
+		522F8C871FA2852F0017BBF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 522F8C851FA2852F0017BBF9 /* Main.storyboard */; };
+		522F8C891FA2852F0017BBF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 522F8C881FA2852F0017BBF9 /* Assets.xcassets */; };
+		522F8C8C1FA2852F0017BBF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 522F8C8A1FA2852F0017BBF9 /* LaunchScreen.storyboard */; };
+		522F8C971FA2852F0017BBF9 /* YouniqueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522F8C961FA2852F0017BBF9 /* YouniqueTests.swift */; };
+		522F8CA21FA2852F0017BBF9 /* YouniqueUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522F8CA11FA2852F0017BBF9 /* YouniqueUITests.swift */; };
+		522F8CB01FA285860017BBF9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522F8CAF1FA285860017BBF9 /* Constants.swift */; };
+		522F8CBC1FA285C50017BBF9 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 522F8CBB1FA285C50017BBF9 /* Login.storyboard */; };
+		522F8CCC1FA286470017BBF9 /* UIViewController+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522F8CB21FA2859A0017BBF9 /* UIViewController+.swift */; };
+		522F8CCD1FA286470017BBF9 /* UITextField+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522F8CB31FA2859A0017BBF9 /* UITextField+.swift */; };
+		522F8CCF1FA286470017BBF9 /* YQInstagramWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522F8CB81FA285A80017BBF9 /* YQInstagramWebViewController.swift */; };
+		522F8CD01FA286470017BBF9 /* YQEmailLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522F8CB91FA285A80017BBF9 /* YQEmailLoginViewController.swift */; };
+		522F8CD11FA286470017BBF9 /* YQSocialLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522F8CBA1FA285A80017BBF9 /* YQSocialLoginViewController.swift */; };
+		522F8CD21FA2864F0017BBF9 /* Proxima Nova Black Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 522F8CBE1FA286090017BBF9 /* Proxima Nova Black Italic.otf */; };
+		522F8CD31FA2864F0017BBF9 /* Proxima Nova Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 522F8CBF1FA286090017BBF9 /* Proxima Nova Light.otf */; };
+		522F8CD41FA2864F0017BBF9 /* Proxima Nova Extrabold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 522F8CC01FA286090017BBF9 /* Proxima Nova Extrabold.otf */; };
+		522F8CD51FA2864F0017BBF9 /* Proxima Nova Thin Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 522F8CC11FA286090017BBF9 /* Proxima Nova Thin Italic.otf */; };
+		522F8CD61FA2864F0017BBF9 /* Proxima Nova Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 522F8CC21FA286090017BBF9 /* Proxima Nova Semibold.otf */; };
+		522F8CD71FA2864F0017BBF9 /* Proxima Nova Extrabold Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 522F8CC31FA286090017BBF9 /* Proxima Nova Extrabold Italic.otf */; };
+		522F8CD81FA2864F0017BBF9 /* Proxima Nova Light Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 522F8CC41FA286090017BBF9 /* Proxima Nova Light Italic.otf */; };
+		522F8CD91FA2864F0017BBF9 /* Proxima Nova Semibold Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 522F8CC51FA286090017BBF9 /* Proxima Nova Semibold Italic.otf */; };
+		522F8CDA1FA2864F0017BBF9 /* Proxima Nova Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 522F8CC61FA286090017BBF9 /* Proxima Nova Black.otf */; };
+		522F8CDB1FA2864F0017BBF9 /* Proxima Nova Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 522F8CC71FA286090017BBF9 /* Proxima Nova Regular.otf */; };
+		522F8CDC1FA2864F0017BBF9 /* Proxima Nova Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 522F8CC81FA286090017BBF9 /* Proxima Nova Bold.otf */; };
+		522F8CDD1FA2864F0017BBF9 /* Proxima Nova Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 522F8CC91FA286090017BBF9 /* Proxima Nova Thin.otf */; };
+		522F8CDE1FA2864F0017BBF9 /* Proxima Nova Bold Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 522F8CCA1FA286090017BBF9 /* Proxima Nova Bold Italic.otf */; };
+		522F8CDF1FA2864F0017BBF9 /* Proxima Nova Regular Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 522F8CCB1FA286090017BBF9 /* Proxima Nova Regular Italic.otf */; };
+		52496AB31FA2F2EE00C84DA2 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52496AB21FA2F2EE00C84DA2 /* Router.swift */; };
+		527CA8471FA9725400BF1376 /* YQBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527CA8461FA9725400BF1376 /* YQBarButtonItem.swift */; };
+		52DA35B61FA6C7DA00C35031 /* YQDrawerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DADEC61FA5A4FD00856116 /* YQDrawerController.swift */; };
+		52DAA39D1FA2E0F00045510C /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DAA39C1FA2E0F00045510C /* APIManager.swift */; };
+		52DADEC81FA5A51E00856116 /* YQMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DADEC71FA5A51E00856116 /* YQMenuViewController.swift */; };
+		52DADECA1FA5ACAA00856116 /* YQItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DADEC91FA5ACAA00856116 /* YQItem.swift */; };
+		52DADECE1FA5B2A500856116 /* YQCart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DADECD1FA5B2A500856116 /* YQCart.swift */; };
+		52DADED01FA5B6EC00856116 /* YQCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DADECF1FA5B6EC00856116 /* YQCategory.swift */; };
+		52E1FE411FA314140066EBFD /* URLRequest+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E1FE401FA314140066EBFD /* URLRequest+.swift */; };
+		52E1FE461FA318950066EBFD /* YQUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E1FE451FA318950066EBFD /* YQUser.swift */; };
+		52FD20991FA7E57D009B5D2B /* YQHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FD20981FA7E57D009B5D2B /* YQHomeViewController.swift */; };
+		52FD209D1FA7F533009B5D2B /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FD209C1FA7F533009B5D2B /* ImageCache.swift */; };
+		52FD20A11FA81A00009B5D2B /* UIImageView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FD20A01FA81A00009B5D2B /* UIImageView+.swift */; };
+		8DA541B2D1D5BE7AC1C0F370 /* Pods_YouniqueUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0193A3A5332ABF020D68226 /* Pods_YouniqueUITests.framework */; };
+		EFB21025DC0B72C94F88908E /* Pods_Younique.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D5EE5B0A80398E9FBCBA5CA /* Pods_Younique.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		522F8C931FA2852F0017BBF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 522F8C761FA2852F0017BBF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 522F8C7D1FA2852F0017BBF9;
+			remoteInfo = Younique;
+		};
+		522F8C9E1FA2852F0017BBF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 522F8C761FA2852F0017BBF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 522F8C7D1FA2852F0017BBF9;
+			remoteInfo = Younique;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2A7222C14E4FDC433C1BB850 /* Pods-YouniqueUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YouniqueUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YouniqueUITests/Pods-YouniqueUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2D5EE5B0A80398E9FBCBA5CA /* Pods_Younique.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Younique.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		484DD1D02434285731418242 /* Pods_YouniqueTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YouniqueTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		48BE11A029F72E95A7DF351F /* Pods-YouniqueTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YouniqueTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YouniqueTests/Pods-YouniqueTests.debug.xcconfig"; sourceTree = "<group>"; };
+		521EFB5A1FA6E51400E1BD96 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		52215AB61FA28791009807B0 /* Younique-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Younique-Bridging-Header.h"; sourceTree = "<group>"; };
+		5224ED671FA4F8D200AB9F43 /* YQNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YQNavigationController.swift; sourceTree = "<group>"; };
+		522F8C7E1FA2852F0017BBF9 /* Younique.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Younique.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		522F8C811FA2852F0017BBF9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		522F8C861FA2852F0017BBF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		522F8C881FA2852F0017BBF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		522F8C8B1FA2852F0017BBF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		522F8C8D1FA2852F0017BBF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		522F8C921FA2852F0017BBF9 /* YouniqueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YouniqueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		522F8C961FA2852F0017BBF9 /* YouniqueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouniqueTests.swift; sourceTree = "<group>"; };
+		522F8C981FA2852F0017BBF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		522F8C9D1FA2852F0017BBF9 /* YouniqueUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YouniqueUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		522F8CA11FA2852F0017BBF9 /* YouniqueUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouniqueUITests.swift; sourceTree = "<group>"; };
+		522F8CA31FA2852F0017BBF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		522F8CAF1FA285860017BBF9 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		522F8CB21FA2859A0017BBF9 /* UIViewController+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+.swift"; sourceTree = "<group>"; };
+		522F8CB31FA2859A0017BBF9 /* UITextField+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+.swift"; sourceTree = "<group>"; };
+		522F8CB81FA285A80017BBF9 /* YQInstagramWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YQInstagramWebViewController.swift; sourceTree = "<group>"; };
+		522F8CB91FA285A80017BBF9 /* YQEmailLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YQEmailLoginViewController.swift; sourceTree = "<group>"; };
+		522F8CBA1FA285A80017BBF9 /* YQSocialLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YQSocialLoginViewController.swift; sourceTree = "<group>"; };
+		522F8CBB1FA285C50017BBF9 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		522F8CBE1FA286090017BBF9 /* Proxima Nova Black Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Black Italic.otf"; sourceTree = "<group>"; };
+		522F8CBF1FA286090017BBF9 /* Proxima Nova Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Light.otf"; sourceTree = "<group>"; };
+		522F8CC01FA286090017BBF9 /* Proxima Nova Extrabold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Extrabold.otf"; sourceTree = "<group>"; };
+		522F8CC11FA286090017BBF9 /* Proxima Nova Thin Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Thin Italic.otf"; sourceTree = "<group>"; };
+		522F8CC21FA286090017BBF9 /* Proxima Nova Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Semibold.otf"; sourceTree = "<group>"; };
+		522F8CC31FA286090017BBF9 /* Proxima Nova Extrabold Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Extrabold Italic.otf"; sourceTree = "<group>"; };
+		522F8CC41FA286090017BBF9 /* Proxima Nova Light Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Light Italic.otf"; sourceTree = "<group>"; };
+		522F8CC51FA286090017BBF9 /* Proxima Nova Semibold Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Semibold Italic.otf"; sourceTree = "<group>"; };
+		522F8CC61FA286090017BBF9 /* Proxima Nova Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Black.otf"; sourceTree = "<group>"; };
+		522F8CC71FA286090017BBF9 /* Proxima Nova Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Regular.otf"; sourceTree = "<group>"; };
+		522F8CC81FA286090017BBF9 /* Proxima Nova Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Bold.otf"; sourceTree = "<group>"; };
+		522F8CC91FA286090017BBF9 /* Proxima Nova Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Thin.otf"; sourceTree = "<group>"; };
+		522F8CCA1FA286090017BBF9 /* Proxima Nova Bold Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Bold Italic.otf"; sourceTree = "<group>"; };
+		522F8CCB1FA286090017BBF9 /* Proxima Nova Regular Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Regular Italic.otf"; sourceTree = "<group>"; };
+		52496AB21FA2F2EE00C84DA2 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		527CA8461FA9725400BF1376 /* YQBarButtonItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YQBarButtonItem.swift; sourceTree = "<group>"; };
+		52DAA39C1FA2E0F00045510C /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		52DADEC61FA5A4FD00856116 /* YQDrawerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YQDrawerController.swift; sourceTree = "<group>"; };
+		52DADEC71FA5A51E00856116 /* YQMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YQMenuViewController.swift; sourceTree = "<group>"; };
+		52DADEC91FA5ACAA00856116 /* YQItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YQItem.swift; sourceTree = "<group>"; };
+		52DADECD1FA5B2A500856116 /* YQCart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YQCart.swift; sourceTree = "<group>"; };
+		52DADECF1FA5B6EC00856116 /* YQCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YQCategory.swift; sourceTree = "<group>"; };
+		52E1FE401FA314140066EBFD /* URLRequest+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLRequest+.swift"; sourceTree = "<group>"; };
+		52E1FE451FA318950066EBFD /* YQUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YQUser.swift; sourceTree = "<group>"; };
+		52FD20981FA7E57D009B5D2B /* YQHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YQHomeViewController.swift; sourceTree = "<group>"; };
+		52FD209C1FA7F533009B5D2B /* ImageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
+		52FD20A01FA81A00009B5D2B /* UIImageView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+.swift"; sourceTree = "<group>"; };
+		6CB1B26D90A5E5603CC2FB4B /* Pods-Younique.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Younique.release.xcconfig"; path = "Pods/Target Support Files/Pods-Younique/Pods-Younique.release.xcconfig"; sourceTree = "<group>"; };
+		6CD2BD97E27CF9458616AF54 /* Pods-Younique.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Younique.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Younique/Pods-Younique.debug.xcconfig"; sourceTree = "<group>"; };
+		ADFAE3E659F05BECCA41C7DC /* Pods-YouniqueUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YouniqueUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YouniqueUITests/Pods-YouniqueUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B0193A3A5332ABF020D68226 /* Pods_YouniqueUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YouniqueUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C40BC98154A84DC8165ED4B7 /* Pods-YouniqueTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YouniqueTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YouniqueTests/Pods-YouniqueTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		522F8C7B1FA2852F0017BBF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFB21025DC0B72C94F88908E /* Pods_Younique.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		522F8C8F1FA2852F0017BBF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BE153B61509C82E0CEA7624 /* Pods_YouniqueTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		522F8C9A1FA2852F0017BBF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DA541B2D1D5BE7AC1C0F370 /* Pods_YouniqueUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34B5B66233F6593D9D072F8F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6CD2BD97E27CF9458616AF54 /* Pods-Younique.debug.xcconfig */,
+				6CB1B26D90A5E5603CC2FB4B /* Pods-Younique.release.xcconfig */,
+				48BE11A029F72E95A7DF351F /* Pods-YouniqueTests.debug.xcconfig */,
+				C40BC98154A84DC8165ED4B7 /* Pods-YouniqueTests.release.xcconfig */,
+				ADFAE3E659F05BECCA41C7DC /* Pods-YouniqueUITests.debug.xcconfig */,
+				2A7222C14E4FDC433C1BB850 /* Pods-YouniqueUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4BD83D335F3A042929949D15 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D5EE5B0A80398E9FBCBA5CA /* Pods_Younique.framework */,
+				484DD1D02434285731418242 /* Pods_YouniqueTests.framework */,
+				B0193A3A5332ABF020D68226 /* Pods_YouniqueUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		522F8C751FA2852F0017BBF9 = {
+			isa = PBXGroup;
+			children = (
+				522F8C801FA2852F0017BBF9 /* Younique */,
+				522F8CBD1FA286090017BBF9 /* Fonts */,
+				522F8C951FA2852F0017BBF9 /* YouniqueTests */,
+				522F8CA01FA2852F0017BBF9 /* YouniqueUITests */,
+				522F8C7F1FA2852F0017BBF9 /* Products */,
+				34B5B66233F6593D9D072F8F /* Pods */,
+				4BD83D335F3A042929949D15 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		522F8C7F1FA2852F0017BBF9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				522F8C7E1FA2852F0017BBF9 /* Younique.app */,
+				522F8C921FA2852F0017BBF9 /* YouniqueTests.xctest */,
+				522F8C9D1FA2852F0017BBF9 /* YouniqueUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		522F8C801FA2852F0017BBF9 /* Younique */ = {
+			isa = PBXGroup;
+			children = (
+				522F8C811FA2852F0017BBF9 /* AppDelegate.swift */,
+				522F8CAF1FA285860017BBF9 /* Constants.swift */,
+				52DADEBA1FA590D700856116 /* Libraries */,
+				52E1FE421FA317F90066EBFD /* Model */,
+				52DAA39B1FA2E0D70045510C /* Networking */,
+				522F8CB11FA2859A0017BBF9 /* Extensions */,
+				522F8CB41FA285A80017BBF9 /* View Controllers */,
+				522F8CBB1FA285C50017BBF9 /* Login.storyboard */,
+				522F8C851FA2852F0017BBF9 /* Main.storyboard */,
+				522F8C881FA2852F0017BBF9 /* Assets.xcassets */,
+				522F8C8A1FA2852F0017BBF9 /* LaunchScreen.storyboard */,
+				522F8C8D1FA2852F0017BBF9 /* Info.plist */,
+				52215AB61FA28791009807B0 /* Younique-Bridging-Header.h */,
+			);
+			path = Younique;
+			sourceTree = "<group>";
+		};
+		522F8C951FA2852F0017BBF9 /* YouniqueTests */ = {
+			isa = PBXGroup;
+			children = (
+				522F8C961FA2852F0017BBF9 /* YouniqueTests.swift */,
+				522F8C981FA2852F0017BBF9 /* Info.plist */,
+			);
+			path = YouniqueTests;
+			sourceTree = "<group>";
+		};
+		522F8CA01FA2852F0017BBF9 /* YouniqueUITests */ = {
+			isa = PBXGroup;
+			children = (
+				522F8CA11FA2852F0017BBF9 /* YouniqueUITests.swift */,
+				522F8CA31FA2852F0017BBF9 /* Info.plist */,
+			);
+			path = YouniqueUITests;
+			sourceTree = "<group>";
+		};
+		522F8CB11FA2859A0017BBF9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				522F8CB21FA2859A0017BBF9 /* UIViewController+.swift */,
+				522F8CB31FA2859A0017BBF9 /* UITextField+.swift */,
+				52E1FE401FA314140066EBFD /* URLRequest+.swift */,
+				52FD20A01FA81A00009B5D2B /* UIImageView+.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		522F8CB41FA285A80017BBF9 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				522F8CB71FA285A80017BBF9 /* Login */,
+				5224ED671FA4F8D200AB9F43 /* YQNavigationController.swift */,
+				522F8CB51FA285A80017BBF9 /* Home */,
+				52DADEBF1FA591A300856116 /* SideMenu */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		522F8CB51FA285A80017BBF9 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				52FD20981FA7E57D009B5D2B /* YQHomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		522F8CB71FA285A80017BBF9 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				522F8CBA1FA285A80017BBF9 /* YQSocialLoginViewController.swift */,
+				522F8CB81FA285A80017BBF9 /* YQInstagramWebViewController.swift */,
+				522F8CB91FA285A80017BBF9 /* YQEmailLoginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		522F8CBD1FA286090017BBF9 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				522F8CBE1FA286090017BBF9 /* Proxima Nova Black Italic.otf */,
+				522F8CBF1FA286090017BBF9 /* Proxima Nova Light.otf */,
+				522F8CC01FA286090017BBF9 /* Proxima Nova Extrabold.otf */,
+				522F8CC11FA286090017BBF9 /* Proxima Nova Thin Italic.otf */,
+				522F8CC21FA286090017BBF9 /* Proxima Nova Semibold.otf */,
+				522F8CC31FA286090017BBF9 /* Proxima Nova Extrabold Italic.otf */,
+				522F8CC41FA286090017BBF9 /* Proxima Nova Light Italic.otf */,
+				522F8CC51FA286090017BBF9 /* Proxima Nova Semibold Italic.otf */,
+				522F8CC61FA286090017BBF9 /* Proxima Nova Black.otf */,
+				522F8CC71FA286090017BBF9 /* Proxima Nova Regular.otf */,
+				522F8CC81FA286090017BBF9 /* Proxima Nova Bold.otf */,
+				522F8CC91FA286090017BBF9 /* Proxima Nova Thin.otf */,
+				522F8CCA1FA286090017BBF9 /* Proxima Nova Bold Italic.otf */,
+				522F8CCB1FA286090017BBF9 /* Proxima Nova Regular Italic.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		52DAA39B1FA2E0D70045510C /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				52DAA39C1FA2E0F00045510C /* APIManager.swift */,
+				52496AB21FA2F2EE00C84DA2 /* Router.swift */,
+				521EFB5A1FA6E51400E1BD96 /* Response.swift */,
+				52FD209C1FA7F533009B5D2B /* ImageCache.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		52DADEBA1FA590D700856116 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				52DADEC61FA5A4FD00856116 /* YQDrawerController.swift */,
+				527CA8461FA9725400BF1376 /* YQBarButtonItem.swift */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		52DADEBF1FA591A300856116 /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				52DADEC71FA5A51E00856116 /* YQMenuViewController.swift */,
+			);
+			path = SideMenu;
+			sourceTree = "<group>";
+		};
+		52E1FE421FA317F90066EBFD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				52E1FE451FA318950066EBFD /* YQUser.swift */,
+				52DADECF1FA5B6EC00856116 /* YQCategory.swift */,
+				52DADEC91FA5ACAA00856116 /* YQItem.swift */,
+				52DADECD1FA5B2A500856116 /* YQCart.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		522F8C7D1FA2852F0017BBF9 /* Younique */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 522F8CA61FA2852F0017BBF9 /* Build configuration list for PBXNativeTarget "Younique" */;
+			buildPhases = (
+				68DA5EBDBA15159AD2010947 /* [CP] Check Pods Manifest.lock */,
+				522F8C7A1FA2852F0017BBF9 /* Sources */,
+				522F8C7B1FA2852F0017BBF9 /* Frameworks */,
+				522F8C7C1FA2852F0017BBF9 /* Resources */,
+				1BAFA2F9F82CE212054A9F18 /* [CP] Embed Pods Frameworks */,
+				6C0F6C4F9F9CEF32A0FA6B4D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Younique;
+			productName = Younique;
+			productReference = 522F8C7E1FA2852F0017BBF9 /* Younique.app */;
+			productType = "com.apple.product-type.application";
+		};
+		522F8C911FA2852F0017BBF9 /* YouniqueTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 522F8CA91FA2852F0017BBF9 /* Build configuration list for PBXNativeTarget "YouniqueTests" */;
+			buildPhases = (
+				54250D8CD26D866F9A4C9AD4 /* [CP] Check Pods Manifest.lock */,
+				522F8C8E1FA2852F0017BBF9 /* Sources */,
+				522F8C8F1FA2852F0017BBF9 /* Frameworks */,
+				522F8C901FA2852F0017BBF9 /* Resources */,
+				7516EEC352E382E9F1A4D51B /* [CP] Embed Pods Frameworks */,
+				C74F6CECE13E59C54D6BA68D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				522F8C941FA2852F0017BBF9 /* PBXTargetDependency */,
+			);
+			name = YouniqueTests;
+			productName = YouniqueTests;
+			productReference = 522F8C921FA2852F0017BBF9 /* YouniqueTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		522F8C9C1FA2852F0017BBF9 /* YouniqueUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 522F8CAC1FA2852F0017BBF9 /* Build configuration list for PBXNativeTarget "YouniqueUITests" */;
+			buildPhases = (
+				019CE24E193626A7C9BE521C /* [CP] Check Pods Manifest.lock */,
+				522F8C991FA2852F0017BBF9 /* Sources */,
+				522F8C9A1FA2852F0017BBF9 /* Frameworks */,
+				522F8C9B1FA2852F0017BBF9 /* Resources */,
+				31E96F85AE99E9560A87173F /* [CP] Embed Pods Frameworks */,
+				523620A254ADC7475EEDA19B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				522F8C9F1FA2852F0017BBF9 /* PBXTargetDependency */,
+			);
+			name = YouniqueUITests;
+			productName = YouniqueUITests;
+			productReference = 522F8C9D1FA2852F0017BBF9 /* YouniqueUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		522F8C761FA2852F0017BBF9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Krishna Pradeep";
+				TargetAttributes = {
+					522F8C7D1FA2852F0017BBF9 = {
+						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Manual;
+					};
+					522F8C911FA2852F0017BBF9 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 522F8C7D1FA2852F0017BBF9;
+					};
+					522F8C9C1FA2852F0017BBF9 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 522F8C7D1FA2852F0017BBF9;
+					};
+				};
+			};
+			buildConfigurationList = 522F8C791FA2852F0017BBF9 /* Build configuration list for PBXProject "Younique" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 522F8C751FA2852F0017BBF9;
+			productRefGroup = 522F8C7F1FA2852F0017BBF9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				522F8C7D1FA2852F0017BBF9 /* Younique */,
+				522F8C911FA2852F0017BBF9 /* YouniqueTests */,
+				522F8C9C1FA2852F0017BBF9 /* YouniqueUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		522F8C7C1FA2852F0017BBF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				522F8CD21FA2864F0017BBF9 /* Proxima Nova Black Italic.otf in Resources */,
+				522F8CD31FA2864F0017BBF9 /* Proxima Nova Light.otf in Resources */,
+				522F8CD41FA2864F0017BBF9 /* Proxima Nova Extrabold.otf in Resources */,
+				522F8CD51FA2864F0017BBF9 /* Proxima Nova Thin Italic.otf in Resources */,
+				522F8CD61FA2864F0017BBF9 /* Proxima Nova Semibold.otf in Resources */,
+				522F8CD71FA2864F0017BBF9 /* Proxima Nova Extrabold Italic.otf in Resources */,
+				522F8CD81FA2864F0017BBF9 /* Proxima Nova Light Italic.otf in Resources */,
+				522F8CD91FA2864F0017BBF9 /* Proxima Nova Semibold Italic.otf in Resources */,
+				522F8CDA1FA2864F0017BBF9 /* Proxima Nova Black.otf in Resources */,
+				522F8CDB1FA2864F0017BBF9 /* Proxima Nova Regular.otf in Resources */,
+				522F8CDC1FA2864F0017BBF9 /* Proxima Nova Bold.otf in Resources */,
+				522F8CDD1FA2864F0017BBF9 /* Proxima Nova Thin.otf in Resources */,
+				522F8CDE1FA2864F0017BBF9 /* Proxima Nova Bold Italic.otf in Resources */,
+				522F8CDF1FA2864F0017BBF9 /* Proxima Nova Regular Italic.otf in Resources */,
+				522F8CBC1FA285C50017BBF9 /* Login.storyboard in Resources */,
+				522F8C8C1FA2852F0017BBF9 /* LaunchScreen.storyboard in Resources */,
+				522F8C891FA2852F0017BBF9 /* Assets.xcassets in Resources */,
+				522F8C871FA2852F0017BBF9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		522F8C901FA2852F0017BBF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		522F8C9B1FA2852F0017BBF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		019CE24E193626A7C9BE521C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YouniqueUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1BAFA2F9F82CE212054A9F18 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Younique/Pods-Younique-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKShareKit/FBSDKShareKit.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKShareKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Younique/Pods-Younique-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		31E96F85AE99E9560A87173F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YouniqueUITests/Pods-YouniqueUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		523620A254ADC7475EEDA19B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YouniqueUITests/Pods-YouniqueUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		54250D8CD26D866F9A4C9AD4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YouniqueTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68DA5EBDBA15159AD2010947 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Younique-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C0F6C4F9F9CEF32A0FA6B4D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Younique/Pods-Younique-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7516EEC352E382E9F1A4D51B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YouniqueTests/Pods-YouniqueTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C74F6CECE13E59C54D6BA68D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YouniqueTests/Pods-YouniqueTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		522F8C7A1FA2852F0017BBF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52FD209D1FA7F533009B5D2B /* ImageCache.swift in Sources */,
+				52DA35B61FA6C7DA00C35031 /* YQDrawerController.swift in Sources */,
+				52DADECA1FA5ACAA00856116 /* YQItem.swift in Sources */,
+				52DADEC81FA5A51E00856116 /* YQMenuViewController.swift in Sources */,
+				52496AB31FA2F2EE00C84DA2 /* Router.swift in Sources */,
+				52FD20991FA7E57D009B5D2B /* YQHomeViewController.swift in Sources */,
+				522F8CCC1FA286470017BBF9 /* UIViewController+.swift in Sources */,
+				522F8CCD1FA286470017BBF9 /* UITextField+.swift in Sources */,
+				527CA8471FA9725400BF1376 /* YQBarButtonItem.swift in Sources */,
+				52DAA39D1FA2E0F00045510C /* APIManager.swift in Sources */,
+				522F8CCF1FA286470017BBF9 /* YQInstagramWebViewController.swift in Sources */,
+				52E1FE411FA314140066EBFD /* URLRequest+.swift in Sources */,
+				52FD20A11FA81A00009B5D2B /* UIImageView+.swift in Sources */,
+				52DADECE1FA5B2A500856116 /* YQCart.swift in Sources */,
+				521EFB5B1FA6E51400E1BD96 /* Response.swift in Sources */,
+				522F8CD01FA286470017BBF9 /* YQEmailLoginViewController.swift in Sources */,
+				522F8CD11FA286470017BBF9 /* YQSocialLoginViewController.swift in Sources */,
+				52E1FE461FA318950066EBFD /* YQUser.swift in Sources */,
+				5224ED681FA4F8D200AB9F43 /* YQNavigationController.swift in Sources */,
+				522F8C821FA2852F0017BBF9 /* AppDelegate.swift in Sources */,
+				522F8CB01FA285860017BBF9 /* Constants.swift in Sources */,
+				52DADED01FA5B6EC00856116 /* YQCategory.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		522F8C8E1FA2852F0017BBF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				522F8C971FA2852F0017BBF9 /* YouniqueTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		522F8C991FA2852F0017BBF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				522F8CA21FA2852F0017BBF9 /* YouniqueUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		522F8C941FA2852F0017BBF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 522F8C7D1FA2852F0017BBF9 /* Younique */;
+			targetProxy = 522F8C931FA2852F0017BBF9 /* PBXContainerItemProxy */;
+		};
+		522F8C9F1FA2852F0017BBF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 522F8C7D1FA2852F0017BBF9 /* Younique */;
+			targetProxy = 522F8C9E1FA2852F0017BBF9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		522F8C851FA2852F0017BBF9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				522F8C861FA2852F0017BBF9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		522F8C8A1FA2852F0017BBF9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				522F8C8B1FA2852F0017BBF9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		522F8CA41FA2852F0017BBF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		522F8CA51FA2852F0017BBF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		522F8CA71FA2852F0017BBF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CD2BD97E27CF9458616AF54 /* Pods-Younique.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Younique/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.youniqueproducts.lashandcarry2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Younique/Younique-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		522F8CA81FA2852F0017BBF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CB1B26D90A5E5603CC2FB4B /* Pods-Younique.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Younique/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.youniqueproducts.lashandcarry2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Younique/Younique-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		522F8CAA1FA2852F0017BBF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48BE11A029F72E95A7DF351F /* Pods-YouniqueTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M82K35R3SR;
+				INFOPLIST_FILE = YouniqueTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.YouniqueTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Younique.app/Younique";
+			};
+			name = Debug;
+		};
+		522F8CAB1FA2852F0017BBF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C40BC98154A84DC8165ED4B7 /* Pods-YouniqueTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M82K35R3SR;
+				INFOPLIST_FILE = YouniqueTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.YouniqueTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Younique.app/Younique";
+			};
+			name = Release;
+		};
+		522F8CAD1FA2852F0017BBF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADFAE3E659F05BECCA41C7DC /* Pods-YouniqueUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M82K35R3SR;
+				INFOPLIST_FILE = YouniqueUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.YouniqueUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Younique;
+			};
+			name = Debug;
+		};
+		522F8CAE1FA2852F0017BBF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A7222C14E4FDC433C1BB850 /* Pods-YouniqueUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M82K35R3SR;
+				INFOPLIST_FILE = YouniqueUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.YouniqueUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Younique;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		522F8C791FA2852F0017BBF9 /* Build configuration list for PBXProject "Younique" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				522F8CA41FA2852F0017BBF9 /* Debug */,
+				522F8CA51FA2852F0017BBF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		522F8CA61FA2852F0017BBF9 /* Build configuration list for PBXNativeTarget "Younique" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				522F8CA71FA2852F0017BBF9 /* Debug */,
+				522F8CA81FA2852F0017BBF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		522F8CA91FA2852F0017BBF9 /* Build configuration list for PBXNativeTarget "YouniqueTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				522F8CAA1FA2852F0017BBF9 /* Debug */,
+				522F8CAB1FA2852F0017BBF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		522F8CAC1FA2852F0017BBF9 /* Build configuration list for PBXNativeTarget "YouniqueUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				522F8CAD1FA2852F0017BBF9 /* Debug */,
+				522F8CAE1FA2852F0017BBF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 522F8C761FA2852F0017BBF9 /* Project object */;
+}
